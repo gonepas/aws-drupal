@@ -1,0 +1,12 @@
+name: getjwtonlogin
+type: module
+description: 'A module to get JWT on login'
+package: Development
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - jwt
+
+# Information added by Drupal.org packaging script on 2023-02-16
+version: '2.0.3'
+project: 'getjwtonlogin'
+datestamp: 1676524096

@@ -1,0 +1,6 @@
+services:
+  getjwtonlogin.login_response_listener:
+    class: Drupal\getjwtonlogin\EventSubscriber\JwtLoginSubscriber
+    arguments: ['@current_route_match', '@jwt.authentication.jwt']
+    tags:
+      - { name: event_subscriber }
