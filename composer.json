@@ -26,7 +26,6 @@
         "drupal/getjwtonlogin": "^2.0",
         "drupal/graphql": "^4.4",
         "drupal/jwt": "^1.1",
-        "drupal/simple_oauth": "^5.2",
         "drupal/toolbar_anti_flicker": "^9.3",
         "drupal/toolbar_menu": "^3.0",
         "drupal/typed_data": "^1.0@beta",
