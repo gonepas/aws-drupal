@@ -6,6 +6,10 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
 # Ignore configuration files that may contain sensitive information
 /web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
@@ -63,4 +67,3 @@
 /drupal
 
 /oauth_keys
-
