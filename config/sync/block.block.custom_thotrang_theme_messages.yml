@@ -1,0 +1,22 @@
+uuid: afb1f926-8015-4fcb-a0b4-b4adf7b34077
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_thotrang_theme
+_core:
+  default_config_hash: qhVVkjqwaxtcPDtxjDl3doG4x8lmjXd21yuqwaLx4_A
+id: custom_thotrang_theme_messages
+theme: custom_thotrang_theme
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

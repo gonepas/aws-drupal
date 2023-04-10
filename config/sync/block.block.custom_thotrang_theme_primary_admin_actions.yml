@@ -1,0 +1,20 @@
+uuid: e6224007-1e0e-430c-826a-5f195b397e84
+langcode: en
+status: true
+dependencies:
+  theme:
+    - custom_thotrang_theme
+_core:
+  default_config_hash: TSdGYs6Xgo-pVyxvSei1mcjrEyQO8wVaMxVuZ3_CyWE
+id: custom_thotrang_theme_primary_admin_actions
+theme: custom_thotrang_theme
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

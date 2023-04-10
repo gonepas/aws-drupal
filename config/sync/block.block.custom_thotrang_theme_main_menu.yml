@@ -1,0 +1,27 @@
+uuid: 608aaf10-e3d0-4618-8e37-ba7e0a798dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - custom_thotrang_theme
+_core:
+  default_config_hash: 3hhuwL68ScR27Yu9xJIQjXNdDQ3D2SZw4gc8k9vfxBo
+id: custom_thotrang_theme_main_menu
+theme: custom_thotrang_theme
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

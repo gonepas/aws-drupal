@@ -1,0 +1,23 @@
+uuid: 9740d281-5685-4502-b4eb-69b8913cec04
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - custom_thotrang_theme
+_core:
+  default_config_hash: 12_33dlsWf6Ib7od9uD8hFbIVj3zJghl5e-PjUXL-HA
+id: custom_thotrang_theme_search_form_wide
+theme: custom_thotrang_theme
+region: top_header_form
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
