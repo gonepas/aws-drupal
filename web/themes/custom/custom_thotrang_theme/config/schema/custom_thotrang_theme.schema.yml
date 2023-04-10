@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+custom_thotrang_theme.settings:
+  type: theme_settings.settings
+  label: 'Thotrang custom theme settings'
