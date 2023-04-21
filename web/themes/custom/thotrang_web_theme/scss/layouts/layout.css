@@ -1,0 +1,154 @@
+header .region-header {
+  background-color: #7bb5d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header .region-header .menu-account .profile-dropdown {
+  display: inline-block;
+  position: relative;
+  background: #dfe4e4;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 0;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}
+header .region-header .menu-account .profile-dropdown * {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox] {
+  display: none;
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox]:checked ~ ul {
+  display: block;
+  animation: pulse 0.5s;
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox]:checked ~ img {
+  background: #989fad;
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox]:checked ~ label {
+  background: #989fad;
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox]:checked ~ label i {
+  color: #dfe4e4;
+}
+header .region-header .menu-account .profile-dropdown input[type=checkbox]:checked ~ label:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: calc(50% - 10px);
+  display: block;
+  border-style: solid;
+  border-width: 7px 10px 0 10px;
+  border-color: #989fad transparent transparent transparent;
+  width: 0;
+  height: 0;
+}
+header .region-header .menu-account .profile-dropdown img {
+  display: inline-block;
+  background: #c3cdcd;
+  height: 2.5rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+  margin: 0.5rem 0.75rem 0.5rem 0.5rem;
+  border-radius: 50%;
+}
+header .region-header .menu-account .profile-dropdown span {
+  display: inline-block;
+  vertical-align: sub;
+  width: 125px;
+  margin-right: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 100%;
+}
+header .region-header .menu-account .profile-dropdown ul {
+  z-index: 99;
+  display: none;
+  list-style: none;
+  padding: 0;
+  marrgin: 0;
+  background: #dfe4e4;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  border-radius: 0;
+}
+header .region-header .menu-account .profile-dropdown ul li a {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #5a6a6a;
+  font-size: 1rem;
+}
+header .region-header .menu-account .profile-dropdown ul li a i {
+  font-size: 1.3rem;
+  vertical-align: middle;
+  margin: 0 0.75rem 0 -0.25rem;
+}
+header .region-header .menu-account .profile-dropdown ul li a:hover {
+  background: #d1d8d8;
+}
+header .region-header .menu-account .profile-dropdown ul li:first-child a:hover {
+  border-radius: 0 0 0 0;
+}
+header .region-header .menu-account .profile-dropdown ul li:last-child a:hover {
+  border-radius: 0 0 0 0;
+}
+header .region-header .menu-account .profile-dropdown > label {
+  position: relative;
+  height: 3.5rem;
+  display: block;
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+  box-sizing: border-box;
+  padding: 0.9rem;
+  float: right;
+  border-radius: 0 0 0 0;
+}
+header .region-header .menu-account .profile-dropdown > label i {
+  color: #9aaaaa;
+  font-size: 1.75rem;
+}
+header .region-header .menu-account .profile-dropdown:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header .region-header .menu-account p.subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5rem 0 2rem;
+  letter-spacing: 0.1rem;
+}
+header .region-header .menu-account .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.25;
+  z-index: -1;
+  background: url(https://ar1web-com.googlecode.com/svn/Bg/bg63.gif);
+}
+header .region-header #block-thotrang-web-theme-site-branding {
+  display: flex;
+  align-items: center;
+}
+header .region-header #block-thotrang-web-theme-site-branding .site-logo img {
+  width: 70px;
+  height: auto;
+}
+
+/*# sourceMappingURL=layout.css.map */

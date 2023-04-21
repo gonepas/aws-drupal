@@ -1,0 +1,5 @@
+name: 'Custom Mod'
+type: module
+description: 'Custom module for hooks, mods and so on'
+core_version_requirement: 9.x
+package: 'Custom'

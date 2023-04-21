@@ -1,0 +1,8 @@
+.navbar-menu--dropdown .mdc-menu-dropdown__toggle .icon {
+  transition: transform 0.25s;
+}
+.navbar-menu--dropdown .mdc-menu-dropdown--expanded .mdc-menu-dropdown__toggle .icon {
+  transform: rotate(180deg);
+}
+
+/*# sourceMappingURL=navbar-menu.css.map */

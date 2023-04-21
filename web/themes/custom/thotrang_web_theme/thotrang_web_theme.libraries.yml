@@ -1,0 +1,29 @@
+# Main theme library.
+global:
+  js:
+    libraries_assets/js/proper.min.js: {}
+    libraries_assets/js/bootstrap.min.js: {}
+    js/thotrang-web-theme.js: {}
+    js/header.js: {}
+  css:
+    base:
+      libraries_assets/css/bootstrap.min.css: {}
+      css/base/elements.css: {}
+      scss/layouts/layout.css: {}
+    component:
+      css/components/block.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/field.css: {}
+      css/components/form.css: {}
+      css/components/header.css: {}
+      css/components/menu.css: {}
+      css/components/messages.css: {}
+      css/components/node.css: {}
+      css/components/sidebar.css: {}
+      css/components/table.css: {}
+      css/components/tabs.css: {}
+      css/components/buttons.css: {}
+    layout:
+      scss/layouts/layout.css: {}
+    theme:
+      css/theme/print.css: { media: print }

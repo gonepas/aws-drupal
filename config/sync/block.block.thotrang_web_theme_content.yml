@@ -1,0 +1,22 @@
+uuid: 56b7ff62-3ea3-4995-a1b7-16baf149a558
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thotrang_web_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: thotrang_web_theme_content
+theme: thotrang_web_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

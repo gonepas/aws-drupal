@@ -1,0 +1,10 @@
+name: Bamboo Twig
+description: 'Several Twig extensions with some useful functions and filters that can improve development experience.'
+package: Bamboo Twig
+type: module
+core_version_requirement: ^9.3 || ^10
+
+# Information added by Drupal.org packaging script on 2022-11-18
+version: '6.0.0'
+project: 'bamboo_twig'
+datestamp: 1668780604

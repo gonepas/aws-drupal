@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: N7xZnv-ntKe1d_CqF7-BxGeX6UeFMW6yjEIF6lF3YmM
+favicon:
+  mimetype: image/png
+  path: 'public://rabbit_c.png'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://favicon_transparent_0.png'
+  use_default: false
+font_size: 16

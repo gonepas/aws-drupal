@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_mod.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_mod_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_mod module.
+    case 'help.page.custom_mod':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom module for hook, mod and so on') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function custom_mod_theme() {
+  return [
+    'custom_mod' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_menu_alter().
+ */
+function custom_mod_menu_alter(&$items) {
+  var_dump($items);die;
+}

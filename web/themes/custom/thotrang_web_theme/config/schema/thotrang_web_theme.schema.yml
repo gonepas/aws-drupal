@@ -1,0 +1,8 @@
+# Schema for the configuration files of the ThoTrang Web Theme theme.
+thotrang_web_theme.settings:
+  type: theme_settings
+  label: 'ThoTrang Web Theme settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size

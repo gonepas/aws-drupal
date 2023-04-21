@@ -1,0 +1,57 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+{% import _self as menus %}
+
+{#
+We call a macro which calls itself to render the full tree.
+@see https://twig.symfony.com/doc/1.x/tags/macro.html
+#}
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% import _self as menus %}
+  {% if items %}
+    <ul>
+      {% for item in items %}
+        {% if menu_level == 0 %}
+          <li><a href="{{ item.url }}"><i class="mdi mdi-account"></i>{{ item.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% set user = bamboo_load_currentuser() %}
+
+<div class="menu-account container">
+  <div class="half">
+    <label for="profile2" class="profile-dropdown">
+      {% if user %}
+        <input type="checkbox" id="profile2">
+        <img src="{{ get_current_user_img() }}">
+        <span>{{ user.name.value }}</span>
+        <label for="profile2"><i class="fa fa-bars" aria-hidden="true"></i></label>
+        {{ menus.menu_links(items, attributes, 0) }}
+      {% else %}
+        <a type="button" class="btn btn-outline-success" id="login-button" href="{{ path('user.login') }}">Login</a>
+      {% endif %}
+    </label>
+  </div>
+</div>

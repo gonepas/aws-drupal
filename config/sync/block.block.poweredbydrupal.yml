@@ -1,0 +1,20 @@
+uuid: 464061f5-1aaf-4913-a3f3-7af8c7e44c42
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thotrang_web_theme
+id: poweredbydrupal
+theme: thotrang_web_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

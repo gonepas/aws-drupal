@@ -1,0 +1,8 @@
+.mb-accordion__section-toggle {
+  cursor: pointer;
+}
+.mb-accordion__section-panel {
+  display: none;
+}
+
+/*# sourceMappingURL=accordion.css.map */

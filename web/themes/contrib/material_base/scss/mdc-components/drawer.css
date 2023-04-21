@@ -1,0 +1,11 @@
+.mdc-drawer.mdc-drawer--permanent {
+  height: auto;
+}
+.toolbar-vertical .mdc-drawer, .toolbar-horizontal .mdc-drawer {
+  height: calc(100% - 39px);
+}
+.toolbar-horizontal.toolbar-tray-open .mdc-drawer {
+  height: calc(100% - 79px);
+}
+
+/*# sourceMappingURL=drawer.css.map */

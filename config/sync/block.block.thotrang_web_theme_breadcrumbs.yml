@@ -1,0 +1,22 @@
+uuid: 6e91ef17-53ee-466f-9f40-f06d881b88f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thotrang_web_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: thotrang_web_theme_breadcrumbs
+theme: thotrang_web_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

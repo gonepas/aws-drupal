@@ -1,0 +1,38 @@
+.share-button--branded.share-button--facebook {
+  background: #1877f2;
+  border: 0;
+  color: #FFF;
+}
+.share-button--branded.share-button--facebook .icon {
+  fill: #FFF;
+  color: #FFF;
+}
+.share-button--branded.share-button--facebook:hover {
+  background: #0d6de9;
+}
+.share-button--branded.share-button--twitter {
+  background: #1DA1F2;
+  border: 0;
+  color: #FFF;
+}
+.share-button--branded.share-button--twitter .icon {
+  fill: #FFF;
+  color: #FFF;
+}
+.share-button--branded.share-button--twitter:hover {
+  background: #0e98ed;
+}
+.share-button--branded.share-button--linkedin {
+  background: #0073b1;
+  border: 0;
+  color: #FFF;
+}
+.share-button--branded.share-button--linkedin .icon {
+  fill: #FFF;
+  color: #FFF;
+}
+.share-button--branded.share-button--linkedin:hover {
+  background: #00669d;
+}
+
+/*# sourceMappingURL=share-button.css.map */

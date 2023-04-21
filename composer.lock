@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fa304b68135d9bcbb1a4d92139da05a",
+    "content-hash": "ab212ed845db3a2aa61ffc3e4c0370fd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1853,6 +1853,62 @@
             }
         },
         {
+            "name": "drupal/bamboo_twig",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bamboo_twig.git",
+                "reference": "6.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bamboo_twig-6.0.0.zip",
+                "reference": "6.0.0",
+                "shasum": "80a025f503832472abb028f36ae6c59984f1c879"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "6.0.0",
+                    "datestamp": "1668780600",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Antistatique",
+                    "homepage": "https://www.antistatique.net",
+                    "email": "info@antistatique.net",
+                    "role": "Sponsor"
+                },
+                {
+                    "name": "Kevin Wenger",
+                    "email": "contact@kevin-wenger.ch",
+                    "homepage": "https://www.drupal.org/u/wengerk",
+                    "role": "Author & Maintainer"
+                }
+            ],
+            "description": "Several Twig extensions with some useful functions and filters that can improve development experience.",
+            "homepage": "https://www.drupal.org/project/bamboo_twig",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bamboo_twig",
+                "issues": "https://www.drupal.org/project/issues/bamboo_twig"
+            }
+        },
+        {
             "name": "drupal/bootstrap5",
             "version": "3.0.7",
             "source": {
@@ -2724,6 +2780,60 @@
             }
         },
         {
+            "name": "drupal/fontawesome",
+            "version": "2.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fontawesome.git",
+                "reference": "8.x-2.25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.25.zip",
+                "reference": "8.x-2.25",
+                "shasum": "67f92e961b35c91b1520565669515525b2223cfb"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.25",
+                    "datestamp": "1676999823",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel.Moberly",
+                    "homepage": "https://www.drupal.org/user/1160788"
+                },
+                {
+                    "name": "truls1502",
+                    "homepage": "https://www.drupal.org/user/325866"
+                }
+            ],
+            "description": "The web's most popular icon set and toolkit.",
+            "homepage": "https://www.drupal.org/project/fontawesome",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fontawesome",
+                "issues": "https://drupal.org/project/issues/fontawesome"
+            }
+        },
+        {
             "name": "drupal/getjwtonlogin",
             "version": "2.0.3",
             "source": {
@@ -2966,6 +3076,76 @@
             }
         },
         {
+            "name": "drupal/material_base",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/material_base.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/material_base-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "afb89fc5e35be18d5eb67f35d92a0de09cfa8679"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1668454023",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Yurtaev (iamdroid)",
+                    "homepage": "https://www.drupal.org/u/iamdroid",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "beloglazov91",
+                    "homepage": "https://www.drupal.org/user/3431497"
+                },
+                {
+                    "name": "branimir.juranic",
+                    "homepage": "https://www.drupal.org/user/3331091"
+                },
+                {
+                    "name": "iamdroid",
+                    "homepage": "https://www.drupal.org/user/892728"
+                },
+                {
+                    "name": "kalabro",
+                    "homepage": "https://www.drupal.org/user/1399638"
+                },
+                {
+                    "name": "pavel.bulat",
+                    "homepage": "https://www.drupal.org/user/3568596"
+                },
+                {
+                    "name": "Spleshka",
+                    "homepage": "https://www.drupal.org/user/810676"
+                }
+            ],
+            "description": "Base theme inspirited by Material Design concept.",
+            "homepage": "https://www.drupal.org/project/material_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/material_base",
+                "issues": "https://www.drupal.org/project/issues/material_base"
+            }
+        },
+        {
             "name": "drupal/toolbar_anti_flicker",
             "version": "9.3.1",
             "source": {
@@ -3051,6 +3231,67 @@
             "homepage": "https://www.drupal.org/project/toolbar_menu",
             "support": {
                 "source": "https://git.drupalcode.org/project/toolbar_menu"
+            }
+        },
+        {
+            "name": "drupal/twig_tweak",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_tweak.git",
+                "reference": "3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_tweak-3.2.1.zip",
+                "reference": "3.2.1",
+                "shasum": "89fc08b60f494a7d786251b6c2c493c536218222"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10.0",
+                "ext-json": "*",
+                "php": ">=7.3",
+                "symfony/polyfill-php80": "^1.17",
+                "twig/twig": "^2.12 || ^3.3.8"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Better dump() function for debugging Twig variables"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.2.1",
+                    "datestamp": "1677404306",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chi",
+                    "homepage": "https://www.drupal.org/user/556138"
+                }
+            ],
+            "description": "A Twig extension with some useful functions and filters for Drupal development.",
+            "homepage": "https://www.drupal.org/project/twig_tweak",
+            "keywords": [
+                "Drupal",
+                "Twig"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_tweak",
+                "issues": "https://www.drupal.org/project/issues/twig_tweak"
             }
         },
         {

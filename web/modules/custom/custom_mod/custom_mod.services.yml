@@ -1,0 +1,10 @@
+services:
+  logger.channel.custom_mod:
+    parent: logger.channel_base
+    arguments: ['custom_mod']
+
+  custom_twig.twig.twig_extension:
+    class: Drupal\custom_mod\CustomModTwigExtension
+    tags:
+      - { name: twig.extension }
+    arguments: ['custom_mod']
