@@ -41,7 +41,7 @@
     {% for key, item in data %}
       <article class="postcard light {{ colors[key % 4] }}">
         <a class="postcard__img_link" href="#">
-          <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+          <img class="postcard__img" src="{{ item.field_image }}" alt="Image Title" />
         </a>
         <div class="postcard__text t-dark">
           <h1 class="postcard__title {{ colors[key % 4] }}"><a href="#">{{ item.title }}</a></h1>
