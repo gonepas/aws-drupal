@@ -26,6 +26,7 @@ module:
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  fft: 0
   field: 0
   field_ui: 0
   file: 0
@@ -60,6 +61,7 @@ module:
   tour: 0
   twig_tweak: 0
   user: 0
+  vff: 0
   views_ui: 0
   workflows: 0
   workspaces: 0

@@ -26,6 +26,7 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/devel": "^5.0",
+        "drupal/fft": "^2.3",
         "drupal/fontawesome": "^2.25",
         "drupal/getjwtonlogin": "^2.0",
         "drupal/graphql": "^4.4",

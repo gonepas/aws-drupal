@@ -1,0 +1,14 @@
+type: module
+name: Field Formatter Template
+description: 'Provides Formatter template for any field.'
+package: Field
+core_version_requirement: ^8 || ^9
+configure: admin/config/content/fft
+tags:
+ - field
+ - template
+
+# Information added by Drupal.org packaging script on 2020-10-10
+version: '8.x-2.3'
+project: 'fft'
+datestamp: 1602314513

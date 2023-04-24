@@ -4,6 +4,17 @@ header .region-header {
   justify-content: space-between;
   align-items: baseline;
 }
+header .region-header .site-logo {
+  font-family: "Dancing Script", cursive;
+}
+header .region-header .site-logo a {
+  color: #F8F6F0;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 40px;
+}
+header .region-header .site-logo a :hover {
+  color: #F8F6F0;
+}
 header .region-header .menu-account .profile-dropdown {
   display: inline-block;
   position: relative;
@@ -11,7 +22,7 @@ header .region-header .menu-account .profile-dropdown {
   margin: auto;
   font-weight: bold;
   font-size: 1.3rem;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-user-select: none; /* Chrome all / Safari all */
   -moz-user-select: none; /* Firefox all */
   -ms-user-select: none; /* IE 10+ */
@@ -22,6 +33,10 @@ header .region-header .menu-account .profile-dropdown * {
   -moz-user-select: none; /* Firefox all */
   -ms-user-select: none; /* IE 10+ */
   user-select: none; /* Likely future */
+}
+header .region-header .menu-account .profile-dropdown a.login-button {
+  background-color: #7bb5d9;
+  border-radius: 3px;
 }
 header .region-header .menu-account .profile-dropdown input[type=checkbox] {
   display: none;
@@ -81,7 +96,7 @@ header .region-header .menu-account .profile-dropdown ul {
   top: 100%;
   right: 0;
   width: 100%;
-  border-radius: 0;
+  border-radius: 3px;
 }
 header .region-header .menu-account .profile-dropdown ul li a {
   display: block;
@@ -99,10 +114,10 @@ header .region-header .menu-account .profile-dropdown ul li a:hover {
   background: #d1d8d8;
 }
 header .region-header .menu-account .profile-dropdown ul li:first-child a:hover {
-  border-radius: 0 0 0 0;
+  border-radius: 3px 3px 0 0;
 }
 header .region-header .menu-account .profile-dropdown ul li:last-child a:hover {
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 3px 3px;
 }
 header .region-header .menu-account .profile-dropdown > label {
   position: relative;
@@ -114,7 +129,7 @@ header .region-header .menu-account .profile-dropdown > label {
   box-sizing: border-box;
   padding: 0.9rem;
   float: right;
-  border-radius: 0 0 0 0;
+  border-radius: 0 3px 3px 0;
 }
 header .region-header .menu-account .profile-dropdown > label i {
   color: #9aaaaa;
@@ -149,6 +164,10 @@ header .region-header #block-thotrang-web-theme-site-branding {
 header .region-header #block-thotrang-web-theme-site-branding .site-logo img {
   width: 70px;
   height: auto;
+}
+
+main {
+  background: #d8e4f0;
 }
 
 /*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,12 @@
+{#Template Name: Frontpage Tags#}
+{#Settings:
+  delimiter = ,
+#}
+{% set values = [] %}
+
+{#<div>{{ values | join(' ' ~ settings.delimiter ~ ' ') | raw }}</div>#}
+<ul class="postcard__tagbox">
+  {% for item in data %}
+    <li class="tag__item"><i class="fas fa-tag mr-2"></i> {{ item.name.value }}</li>
+  {% endfor %}
+</ul>

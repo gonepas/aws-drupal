@@ -5,9 +5,21 @@ header {
     justify-content: space-between;
     align-items: baseline;
 
+    .site-logo {
+      font-family: 'Dancing Script', cursive;
+      a {
+        color: #F8F6F0;
+        text-shadow: 1px 1px 1px #333;
+        font-size: 40px;
+        :hover {
+          color: #F8F6F0;
+        }
+      }
+    }
+
     // account menu
     .menu-account {
-      $border-radius: 0;
+      $border-radius: 3px;
       $primary: #dfe4e4;
       $active: #989fad;
       $animation: pulse;
@@ -30,6 +42,11 @@ header {
           -moz-user-select: none;     /* Firefox all */
           -ms-user-select: none;      /* IE 10+ */
           user-select: none;          /* Likely future */
+        }
+
+        a.login-button {
+          background-color: #7bb5d9;
+          border-radius: $border-radius;
         }
 
         input[type="checkbox"]{

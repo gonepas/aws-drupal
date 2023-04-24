@@ -27,3 +27,11 @@ global:
       scss/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+front_page:
+  css:
+    base:
+      scss/frontpage/frontpage.css: {}
+pager:
+  css:
+    base:
+      scss/navigations/pager.css: {}

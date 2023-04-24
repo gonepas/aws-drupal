@@ -20,9 +20,11 @@
     </a>
   {% endif %}
   {% if site_name %}
-    <div class="site-name">
-      <a href="{{ path('<front>') }}" rel="home">{{ site_name }}</a>
-    </div>
+    <h1 class="site-logo">
+      <div class="site-name">
+        <a href="{{ path('<front>') }}" rel="home">{{ site_name }}</a>
+      </div>
+    </h1>
   {% endif %}
   {% if site_slogan %}
     <div class="site-slogan">{{ site_slogan }}</div>
