@@ -15,8 +15,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: check location
+      run: pwd
+      
     - name: create test file
-      run: echo 'running' > ~/file.txt
+      run: echo 'running' > file.txt
+      
     - uses: actions/checkout@v3
 
     - name: Validate composer.json and composer.lock
