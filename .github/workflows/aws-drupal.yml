@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: create test file
-      run: echo 'running' > /home/ec2-user/file.txt
+      run: echo 'running' > ~/file.txt
     - uses: actions/checkout@v3
 
     - name: Validate composer.json and composer.lock
