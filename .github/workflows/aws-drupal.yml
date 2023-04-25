@@ -20,6 +20,22 @@ jobs:
 
     - uses: actions/checkout@v3
     
+    - name: SSH Deploy Command
+      # You may pin to the exact commit or the version.
+      # uses: D3rHase/ssh-command-action@51ec3cec93e9557d7a5289c1e31a4a28185e5200
+      uses: D3rHase/ssh-command-action@v0.2.2
+      with:
+        # hostname / IP of the server
+        host: "ec2-13-215-158-39.ap-southeast-1.compute.amazonaws.com"
+        # ssh port of the server
+        port: "22"
+        # user of the server
+        user: "ec2-user"
+        # private ssh key registered on the server
+        private_key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+        # command to be executed
+        command: "echo 'running' > ~/file.txt"
+    
     - name: Deploy to my EC2 instance
       uses: easingthemes/ssh-deploy@v4.1.8
       env:
