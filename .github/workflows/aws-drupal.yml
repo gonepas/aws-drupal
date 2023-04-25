@@ -31,4 +31,4 @@ jobs:
         private_key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
         # command to be executed
         command: 
-          "echo 'running1' > ~/file1.txt; echo 'running2' > ~/file2.txt"
+          "cd /var/www/html/aws-drupal/ ; git checkout main ; git pull "
