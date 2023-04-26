@@ -31,4 +31,4 @@ jobs:
         private_key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
         # command to be executed
         command: 
-          "cd /var/www/html/aws-drupal/ ; git checkout main ; git pull "
+          "cd /var/www/html/aws-drupal/ ; git checkout main ; git pull; composer install; ./vendor/bin/drush cr "
