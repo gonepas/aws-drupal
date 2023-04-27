@@ -1,0 +1,33 @@
+uuid: 31963e7a-cf96-41c6-a3e6-1c622014369b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pillar.field_pillar_image
+    - node.type.pillar
+  module:
+    - image
+    - user
+id: node.pillar.default
+targetEntityType: node
+bundle: pillar
+mode: default
+content:
+  field_pillar_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: 8c55baa6-671d-4819-ba4b-eff1604f3577
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.target
+  module:
+    - system
+    - views
+  theme:
+    - thotrang_web_theme
+id: views_block__target_block_target_front
+theme: thotrang_web_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:target-block_target_front'
+settings:
+  id: 'views_block:target-block_target_front'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

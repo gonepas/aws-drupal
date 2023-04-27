@@ -1,0 +1,18 @@
+uuid: 144517c1-85a1-4887-b905-2111ab254ae8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.timeline_event
+id: node.timeline_event.created
+field_name: created
+entity_type: node
+bundle: timeline_event
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

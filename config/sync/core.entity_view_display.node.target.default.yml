@@ -1,0 +1,59 @@
+uuid: b2e5a09e-777e-4785-8b4a-6bf33b310667
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.target.field_need
+    - field.field.node.target.field_target_detail
+    - field.field.node.target.field_target_icon
+    - field.field.node.target.field_target_summary
+    - node.type.target
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.target.default
+targetEntityType: node
+bundle: target
+mode: default
+content:
+  field_need:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_target_detail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_target_icon:
+    type: fontawesome_icon_formatter
+    label: inline
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_target_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

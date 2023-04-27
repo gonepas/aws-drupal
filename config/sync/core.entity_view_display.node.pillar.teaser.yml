@@ -1,0 +1,23 @@
+uuid: 0e7e24c2-dfa7-41e5-8f5c-d341bf55c086
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pillar.field_pillar_image
+    - node.type.pillar
+  module:
+    - user
+id: node.pillar.teaser
+targetEntityType: node
+bundle: pillar
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_pillar_image: true
+  langcode: true

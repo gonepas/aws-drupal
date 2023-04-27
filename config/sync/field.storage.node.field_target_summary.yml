@@ -1,0 +1,19 @@
+uuid: 2c2d8ce3-a814-4d57-b837-e431c6890859
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_target_summary
+field_name: field_target_summary
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

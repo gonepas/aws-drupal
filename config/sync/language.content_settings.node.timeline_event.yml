@@ -1,0 +1,18 @@
+uuid: e93ffa2c-9737-46ff-9f1e-75302e25eda4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.timeline_event
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.timeline_event
+target_entity_type_id: node
+target_bundle: timeline_event
+default_langcode: site_default
+language_alterable: false

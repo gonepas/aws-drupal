@@ -1,0 +1,33 @@
+uuid: 13bdc60e-fe99-4ed5-9363-c88b92da8c59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.timeline_event
+    - taxonomy.vocabulary.event_type
+  content:
+    - 'taxonomy_term:event_type:d04210c9-b6c9-403d-9607-fc026f20b925'
+id: node.timeline_event.field_type
+field_name: field_type
+entity_type: node
+bundle: timeline_event
+label: Type
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: d04210c9-b6c9-403d-9607-fc026f20b925
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event_type: event_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

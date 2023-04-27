@@ -1,0 +1,18 @@
+uuid: 36c71fd7-1cc0-4173-8b04-e7777fae902a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.timeline_event
+id: node.timeline_event.changed
+field_name: changed
+entity_type: node
+bundle: timeline_event
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

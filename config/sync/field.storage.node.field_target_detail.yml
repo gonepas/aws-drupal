@@ -1,0 +1,19 @@
+uuid: adb865a0-c8f2-4ba4-9c3e-748b7f7ceb30
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_target_detail
+field_name: field_target_detail
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

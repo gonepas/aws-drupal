@@ -1,0 +1,22 @@
+uuid: 8362b69e-7fde-473b-8fce-16d2b8ae00b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.timeline_event
+id: node.timeline_event.promote
+field_name: promote
+entity_type: node
+bundle: timeline_event
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,11 @@
+uuid: 085c5980-44e4-4b44-a278-c4869f9aded8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pillar
+id: node.pillar
+target_entity_type_id: node
+target_bundle: pillar
+default_langcode: site_default
+language_alterable: false

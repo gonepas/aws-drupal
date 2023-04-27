@@ -1,0 +1,29 @@
+uuid: 003929c8-c8f2-4ec3-bf10-206d06165621
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.pillar
+  module:
+    - system
+    - views
+  theme:
+    - thotrang_web_theme
+id: views_block__pillar_block_pillar_front
+theme: thotrang_web_theme
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:pillar-block_pillar_front'
+settings:
+  id: 'views_block:pillar-block_pillar_front'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

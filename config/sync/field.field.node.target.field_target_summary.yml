@@ -1,0 +1,19 @@
+uuid: ae92c870-662c-4b0e-853e-006e930cd957
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_target_summary
+    - node.type.target
+id: node.target.field_target_summary
+field_name: field_target_summary
+entity_type: node
+bundle: target
+label: 'Target summary'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

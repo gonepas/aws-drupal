@@ -19,6 +19,7 @@ module:
   contact: 0
   content_moderation: 0
   contextual: 0
+  ctools: 0
   custom_mod: 0
   datetime: 0
   dblog: 0
@@ -28,13 +29,18 @@ module:
   editor: 0
   fft: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
   filter: 0
   fontawesome: 0
+  fontawesome_iconpicker_widget: 0
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_draggable: 0
+  jquery_ui_droppable: 0
   language: 0
   layout_builder: 0
   layout_discovery: 0
@@ -48,6 +54,8 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  panels: 0
+  panels_ipe: 0
   path: 0
   path_alias: 0
   rdf: 0
@@ -62,11 +70,13 @@ module:
   twig_tweak: 0
   user: 0
   vff: 0
+  views_field_view: 0
   views_ui: 0
   workflows: 0
   workspaces: 0
   content_translation: 10
   views: 10
+  empty_page: 1000
   standard: 1000
 theme:
   olivero: 0

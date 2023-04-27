@@ -1,0 +1,19 @@
+uuid: 6058c11f-86bd-41c5-bd51-7f3ef894e831
+langcode: en
+status: true
+dependencies:
+  module:
+    - fontawesome
+    - node
+id: node.field_target_icon
+field_name: field_target_icon
+entity_type: node
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

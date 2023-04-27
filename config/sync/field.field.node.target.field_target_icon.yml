@@ -1,0 +1,21 @@
+uuid: 5f859dba-3019-4690-9b95-be6d019f3c4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_target_icon
+    - node.type.target
+  module:
+    - fontawesome
+id: node.target.field_target_icon
+field_name: field_target_icon
+entity_type: node
+bundle: target
+label: 'Target icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon
