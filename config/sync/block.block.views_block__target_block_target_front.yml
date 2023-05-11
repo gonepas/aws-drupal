@@ -18,7 +18,7 @@ plugin: 'views_block:target-block_target_front'
 settings:
   id: 'views_block:target-block_target_front'
   label: ''
-  label_display: visible
+  label_display: '0'
   provider: views
   views_label: ''
   items_per_page: none

@@ -17,6 +17,7 @@ dependencies:
     - taxonomy
     - text
     - user
+    - vff
 id: love_timeline
 label: 'My timeline'
 module: views
@@ -74,7 +75,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: true
+          element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -85,7 +86,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -148,7 +149,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            image_style: medium
+            image_style: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -336,9 +337,9 @@ display:
           click_sort_column: value
           type: timestamp
           settings:
-            date_format: olivero_medium
-            custom_date_format: ''
-            timezone: ''
+            date_format: custom
+            custom_date_format: d-m-Y
+            timezone: Asia/Ho_Chi_Minh
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -460,7 +461,17 @@ display:
           limit: true
           error_message: true
       style:
-        type: default
+        type: views_formatter_template
+        options:
+          row_class: ''
+          default_row_class: false
+          template: views-view--vff-love-timeline-front-block.html.twig
+          render_type: raw
+          fields_available: ''
+          vff_clean_template: 1
+          vff_tree_field: ''
+          vff_tree_parent_field: ''
+          show_empty: 0
       row:
         type: fields
       query:
@@ -488,8 +499,8 @@ display:
         - 'config:field.storage.node.field_event_image'
         - 'config:field.storage.node.field_event_time'
         - 'config:field.storage.node.field_summary'
-  block_1:
-    id: block_1
+  timeline_front_block:
+    id: timeline_front_block
     display_title: Block
     display_plugin: block
     position: 1

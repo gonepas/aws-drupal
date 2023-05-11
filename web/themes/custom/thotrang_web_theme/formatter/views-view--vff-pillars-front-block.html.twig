@@ -1,0 +1,62 @@
+{#Template Name: Pillar front page#}
+{#
+/**
+ * @file
+ * Theme override for a main view template.
+ *
+ * Available variables:
+ * - attributes: Remaining HTML attributes for the element.
+ * - css_name: A css-safe version of the view name.
+ * - css_class: The user-specified classes names, if any.
+ * - header: The optional header.
+ * - footer: The optional footer.
+ * - rows: The results of the view query, if any.
+ * - empty: The content to display if there are no rows.
+ * - pager: The optional pager next/prev links to display.
+ * - exposed: Exposed widget form/info to display.
+ * - feed_icons: Optional feed icons to display.
+ * - more: An optional link to the next page of results.
+ * - title: Title of the view, only used when displaying in the admin preview.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the view title.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the view title.
+ * - attachment_before: An optional attachment view to be displayed before the
+ *   view content.
+ * - attachment_after: An optional attachment view to be displayed after the
+ *   view content.
+ * - dom_id: Unique id for every view being printed to give unique class for
+ *   Javascript.
+ *
+ * @see template_preprocess_views_view()
+ */
+#}
+{% set bg_classes = ['bg-light-blue', 'bg-light-grey', 'bg-light-purple', 'bg-light-pink', 'bg-light-green'] %}
+{{ attach_library('thotrang_web_theme/front_pillars') }}
+<div class="front-pillars">
+  <section class="fullsize-video-bg">
+    <div class="inner">
+      <div>
+        <h1>Those sweet memories of my life spent with you are the best.</h1>
+        <p>They make me smile no matter what is going in my present life.</p>
+        <div class="pillars">
+          {% for key, item in data %}
+            <div class="card {{ bg_classes[key % 5] }}">
+              <img class="card-img-top" src="{{ item.field_pillar_image }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.title }}</h5>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div id="video-viewport">
+      <video width="1920" height="1280" autoplay muted loop>
+{#        <source src="https://player.vimeo.com/external/181445574.hd.mp4?s=d24f32d879305e931468d55e4d7ce6efb5a95c39&amp;profile_id=119" type="video/mp4" />#}
+        <source src="https://aws-drupal.s3.ap-southeast-1.amazonaws.com/2022.mov" type="video/mp4" />
+        <source src="https://storage.googleapis.com/coverr-main/webm/Winter-Grass.webm" type="video/webm" />
+      </video>
+    </div>
+  </section>
+</div>

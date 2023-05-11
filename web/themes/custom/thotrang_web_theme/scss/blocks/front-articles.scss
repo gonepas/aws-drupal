@@ -1,0 +1,23 @@
+.section-label {
+  color: #27325a;
+  text-align: center;
+  letter-spacing: 0;
+  margin-bottom: 38px;
+  font-family: Quarto,sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 61px;
+}
+.front-articles {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #bdcadf;
+  .articles-container {
+    section {
+      display: flex;
+      justify-content: space-evenly;
+      img {
+        max-height: 300px;
+      }
+    }
+  }
+}

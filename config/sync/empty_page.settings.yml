@@ -3,7 +3,7 @@ _core:
 new_id: 2
 callback_1:
   created: 1682530404
-  cid: 1
-  updated: 1682530404
+  cid: '1'
+  updated: 1683802757
   path: /sample-empty
-  page_title: 'Empty page'
+  page_title: Home

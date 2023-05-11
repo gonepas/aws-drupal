@@ -1,4 +1,4 @@
-uuid: aa7bcdb9-aacd-42aa-b94e-cfc7941d4760
+uuid: 60e1aaaa-2eb8-4ae2-99fc-26bdb3b9ff41
 langcode: en
 status: true
 dependencies:
@@ -9,16 +9,16 @@ dependencies:
     - views
   theme:
     - thotrang_web_theme
-id: views_block__love_timeline_block_1
+id: views_block__love_timeline_front_block
 theme: thotrang_web_theme
 region: content
-weight: -1
+weight: 0
 provider: null
-plugin: 'views_block:love_timeline-block_1'
+plugin: 'views_block:love_timeline-timeline_front_block'
 settings:
-  id: 'views_block:love_timeline-block_1'
+  id: 'views_block:love_timeline-timeline_front_block'
   label: ''
-  label_display: visible
+  label_display: '0'
   provider: views
   views_label: ''
   items_per_page: '6'

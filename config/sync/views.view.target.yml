@@ -10,6 +10,7 @@ dependencies:
     - fontawesome
     - node
     - user
+    - vff
 id: target
 label: Target
 module: views
@@ -282,7 +283,17 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       style:
-        type: default
+        type: views_formatter_template
+        options:
+          row_class: ''
+          default_row_class: false
+          template: views-view--vff-targets-front-block.html.twig
+          render_type: raw
+          fields_available: ''
+          vff_clean_template: 0
+          vff_tree_field: ''
+          vff_tree_parent_field: ''
+          show_empty: 0
       row:
         type: fields
       query:

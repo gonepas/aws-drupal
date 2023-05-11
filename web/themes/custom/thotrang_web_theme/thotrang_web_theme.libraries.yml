@@ -31,6 +31,22 @@ front_page:
   css:
     base:
       scss/frontpage/frontpage.css: {}
+front_articles:
+  css:
+    base:
+      scss/blocks/front-articles.css: {}
+front_pillars:
+  css:
+    base:
+      scss/blocks/front-pillars.css: {}
+front_timeline:
+  css:
+    base:
+      scss/blocks/front-timeline.css: {}
+front_target:
+  css:
+    base:
+      scss/blocks/front-target.css: {}
 pager:
   css:
     base:
