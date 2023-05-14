@@ -12,8 +12,7 @@
 }
 .front-pillars video {
   display: block;
-  width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 .front-pillars .fullsize-video-bg {
   height: 550px;
