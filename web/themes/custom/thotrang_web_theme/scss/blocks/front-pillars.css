@@ -13,7 +13,6 @@
 .front-pillars video {
   display: block;
   object-fit: cover;
-  object-position: center 120px;
 }
 .front-pillars .fullsize-video-bg {
   height: 550px;
