@@ -17,8 +17,15 @@
   display: flex;
   justify-content: space-evenly;
 }
-.front-articles .articles-container section img {
-  max-height: 300px;
+.front-articles .articles-container section .card {
+  width: 30%;
+}
+.front-articles .articles-container section .bg-image {
+  text-align: center;
+  height: 300px;
+}
+.front-articles .articles-container section .bg-image img {
+  max-height: 250px;
 }
 
 /*# sourceMappingURL=front-articles.css.map */

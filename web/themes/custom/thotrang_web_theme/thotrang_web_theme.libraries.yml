@@ -27,6 +27,12 @@ global:
       scss/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+vertical_timeline:
+  css:
+    base:
+      libraries_assets/css/vertical_timeline.min.css: {}
+  js:
+    libraries_assets/js/vertical_timeline.js: {}
 front_page:
   css:
     base:

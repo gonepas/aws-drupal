@@ -15,8 +15,15 @@
     section {
       display: flex;
       justify-content: space-evenly;
-      img {
-        max-height: 300px;
+      .card {
+        width: 30%;
+      }
+      .bg-image {
+        text-align: center;
+        height: 300px;
+        img {
+          max-height: 250px;
+        }
       }
     }
   }
