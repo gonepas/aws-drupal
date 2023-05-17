@@ -1,9 +1,22 @@
+@font-face {
+  font-family: YouthTouchDemoRegular;
+  src: url('../../libraries_assets/fonts/youth-touch-font/YouthTouchDemoRegular.ttf');
+}
+
 section.cd-timeline {
   max-height: 800px;
   overflow: scroll;
   width: 80%;
   margin: 0 auto;
   .cd-timeline__content {
+    h2 {
+      font-family: YouthTouchDemoRegular, serif;
+    }
+    p {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px;
+    }
     img {
       max-width: 300px;
     }
