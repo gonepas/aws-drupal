@@ -2,24 +2,27 @@
   font-family: YouthTouchDemoRegular;
   src: url("../../libraries_assets/fonts/youth-touch-font/YouthTouchDemoRegular.ttf");
 }
-section.cd-timeline {
+.front-love-timeline {
+  margin-bottom: 20px;
+}
+.front-love-timeline section.cd-timeline {
   max-height: 800px;
   overflow: scroll;
   width: 80%;
   margin: 0 auto;
 }
-section.cd-timeline .cd-timeline__content h2 {
+.front-love-timeline section.cd-timeline .cd-timeline__content h2 {
   font-family: YouthTouchDemoRegular, serif;
 }
-section.cd-timeline .cd-timeline__content p {
+.front-love-timeline section.cd-timeline .cd-timeline__content p {
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
 }
-section.cd-timeline .cd-timeline__content img {
+.front-love-timeline section.cd-timeline .cd-timeline__content img {
   max-width: 300px;
 }
-section.cd-timeline .cd-timeline__img--picture {
+.front-love-timeline section.cd-timeline .cd-timeline__img--picture {
   background-color: #FFFFFA;
 }
 
