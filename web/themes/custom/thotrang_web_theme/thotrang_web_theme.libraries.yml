@@ -27,6 +27,11 @@ global:
       scss/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
 vertical_timeline:
   css:
     base:
