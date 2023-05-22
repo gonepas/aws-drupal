@@ -21,7 +21,7 @@ settings:
   label_display: '0'
   provider: views
   views_label: ''
-  items_per_page: '6'
+  items_per_page: '24'
 visibility:
   request_path:
     id: request_path

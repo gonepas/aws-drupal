@@ -18,8 +18,8 @@
 		for( var i = 0; i < this.blocks.length; i++) {
 			(function(i){
 				if( self.blocks[i].getBoundingClientRect().top > window.innerHeight*self.offset ) {
-					self.images[i].classList.add("cd-timeline__img--hidden"); 
-					self.contents[i].classList.add("cd-timeline__content--hidden"); 
+					self.images[i].classList.add("cd-timeline__img--hidden");
+					self.contents[i].classList.add("cd-timeline__content--hidden");
 				}
 			})(i);
 		}
@@ -80,9 +80,12 @@ jQuery(document).ready(function($){
 
 	//on scolling, show/animate timeline blocks when enter the viewport
 	$('section.cd-timeline').on('scroll', function() {
+		console.log('section scroll');
 		if(  !window.requestAnimationFrame  ) {
+			console.log("1")
 			setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
 		} else {
+			console.log("2")
 			window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
 		}
 	});
@@ -99,6 +102,7 @@ jQuery(document).ready(function($){
 
 
 	function showBlocks(blocks, offset) {
+		console.log('blocks', blocks);
 		blocks.each(function(){
 			if( $(this).offset().top < $(window).scrollTop() + $(window).height() * offset ) {
 				if(  $(this).find('.cd-timeline-img').hasClass('is-hidden')   ) {

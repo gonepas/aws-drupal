@@ -10,7 +10,7 @@ dependencies:
     - node.type.timeline_event
     - taxonomy.vocabulary.event_type
   content:
-    - 'taxonomy_term:event_type:d04210c9-b6c9-403d-9607-fc026f20b925'
+    - 'taxonomy_term:event_type:5731546d-d652-456f-8dec-3758520fba04'
   module:
     - image
     - node
@@ -424,7 +424,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            11: 11
+            5: 5
           group: 1
           exposed: false
           expose:

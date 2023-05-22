@@ -5,6 +5,7 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - node.type.timeline_event
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -33,11 +34,14 @@ permissions:
   - 'create article content'
   - 'create page content'
   - 'create terms in tags'
+  - 'create timeline_event content'
   - 'create url aliases'
+  - 'delete any timeline_event content'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'edit any timeline_event content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'

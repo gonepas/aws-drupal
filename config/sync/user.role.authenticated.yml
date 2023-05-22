@@ -7,6 +7,7 @@ dependencies:
   module:
     - comment
     - contact
+    - empty_page
     - filter
     - fontawesome
     - media
@@ -29,4 +30,5 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view empty pages'
   - 'view media'
