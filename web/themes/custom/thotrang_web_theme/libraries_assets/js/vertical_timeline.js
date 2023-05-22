@@ -79,7 +79,7 @@ jQuery(document).ready(function($){
 
 
 	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function() {
+	$('section.cd-timeline').on('scroll', function() {
 		if(  !window.requestAnimationFrame  ) {
 			setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
 		} else {
