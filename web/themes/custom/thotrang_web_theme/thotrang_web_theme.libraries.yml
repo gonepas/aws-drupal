@@ -58,6 +58,10 @@ front_target:
   css:
     base:
       scss/blocks/front-target.css: {}
+node-article:
+  css:
+    base:
+      scss/node/node-article.css: {}
 pager:
   css:
     base:

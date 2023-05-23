@@ -1,0 +1,25 @@
+article.node--type-article {
+  padding: 0 50px 20px 50px;
+}
+article.node--type-article footer.node__meta {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+article.node--type-article footer.node__meta img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+}
+article.node--type-article div.node__content div.field--name-field-image {
+  text-align: center;
+}
+article.node--type-article div.node__content div.field--name-field-image img {
+  max-height: 400px;
+  width: auto;
+}
+article.node--type-article div.field--name-body {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=node-article.css.map */

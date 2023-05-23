@@ -1,0 +1,25 @@
+article.node--type-article {
+  padding: 0 50px 20px 50px;
+  footer.node__meta {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    img {
+      border-radius: 50%;
+      height: 50px;
+      width: auto;
+    }
+  }
+  div.node__content {
+    div.field--name-field-image {
+      text-align: center;
+      img {
+        max-height: 400px;
+        width: auto;
+      }
+    }
+  }
+  div.field--name-body {
+    margin-top: 50px;
+  }
+}
