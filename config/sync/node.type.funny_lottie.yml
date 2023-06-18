@@ -1,0 +1,18 @@
+uuid: a9e09ed7-16b7-46d6-a4d5-6df8a0c67d60
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Funny Lottie'
+type: funny_lottie
+description: 'Funny lotties'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

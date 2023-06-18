@@ -1,0 +1,21 @@
+uuid: 12990ade-7319-4b7b-a1fa-b50a0cdf84eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lottie_text
+    - node.type.funny_lottie
+  module:
+    - text
+id: node.funny_lottie.field_lottie_text
+field_name: field_lottie_text
+entity_type: node
+bundle: funny_lottie
+label: 'Lottie text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

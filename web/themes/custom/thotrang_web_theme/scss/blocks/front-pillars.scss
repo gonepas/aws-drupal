@@ -8,6 +8,8 @@
     height: 100%;
     overflow: hidden;
     z-index: 1;
+    background: url("/themes/custom/thotrang_web_theme/images/love-banner.webp");
+    background-size: contain;
   }
 
   video {
@@ -67,7 +69,7 @@
     letter-spacing: -.025em;
     text-transform: uppercase;
     margin-bottom: .5em;
-    color: #F8F6F0;
+    color: #e6ecf2;
   }
 
   h1 + p {

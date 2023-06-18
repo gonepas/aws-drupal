@@ -1,9 +1,21 @@
 _core:
   default_config_hash: 1qKVk03zhLAZj-W36dakmXWDO3mx28TRgx9iDzHpqMs
-new_id: 2
+new_id: 4
 callback_1:
   created: 1682530404
   cid: '1'
   updated: 1683802757
   path: /sample-empty
   page_title: Home
+callback_2:
+  created: 1685522898
+  cid: 2
+  updated: 1685522898
+  path: hello-me
+  page_title: 'Let me introduce to u: Me'
+callback_3:
+  created: 1686818979
+  cid: '3'
+  updated: 1686819139
+  path: some-funny
+  page_title: 'Some funny things'

@@ -9,6 +9,8 @@
   height: 100%;
   overflow: hidden;
   z-index: 1;
+  background: url("/themes/custom/thotrang_web_theme/images/love-banner.webp");
+  background-size: contain;
 }
 .front-pillars video {
   display: block;
@@ -54,7 +56,7 @@
   letter-spacing: -0.025em;
   text-transform: uppercase;
   margin-bottom: 0.5em;
-  color: #F8F6F0;
+  color: #e6ecf2;
 }
 .front-pillars h1 + p {
   font-family: "Shadows Into Light Two", cursive;

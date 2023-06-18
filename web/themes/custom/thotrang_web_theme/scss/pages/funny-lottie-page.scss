@@ -1,0 +1,26 @@
+.layout-container {
+  min-height: calc(100vh - 40px);
+  @media screen and (min-width: 900px) {
+    height: calc(100vh - 40px);
+  }
+  position: relative;
+  #funnyPage-wrapper {
+    height: 100%;
+    #funnyPage-lottie {
+      height: 100%;
+      margin: 0 auto;
+    }
+    #next-btn {
+      max-width: 100px;
+      position: absolute;
+      right: 10px;
+      bottom: 0;
+    }
+    #lottie-description {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 23px;
+      font-family: 'Dancing Script', cursive;
+    }
+  }
+}

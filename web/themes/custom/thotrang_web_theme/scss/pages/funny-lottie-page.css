@@ -1,0 +1,30 @@
+.layout-container {
+  min-height: calc(100vh - 40px);
+  position: relative;
+}
+@media screen and (min-width: 900px) {
+  .layout-container {
+    height: calc(100vh - 40px);
+  }
+}
+.layout-container #funnyPage-wrapper {
+  height: 100%;
+}
+.layout-container #funnyPage-wrapper #funnyPage-lottie {
+  height: 100%;
+  margin: 0 auto;
+}
+.layout-container #funnyPage-wrapper #next-btn {
+  max-width: 100px;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+.layout-container #funnyPage-wrapper #lottie-description {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 23px;
+  font-family: "Dancing Script", cursive;
+}
+
+/*# sourceMappingURL=funny-lottie-page.css.map */

@@ -42,6 +42,22 @@ front_page:
   css:
     base:
       scss/frontpage/frontpage.css: {}
+lottie_bodymovin:
+  js:
+    libraries_assets/js/lottie.min.js: {}
+hello_me_page:
+  css:
+    base:
+      scss/pages/hello-me.css: {}
+  js:
+    js/hello-me-page.js: {}
+funny-lottie-page:
+  css:
+    base:
+      scss/pages/funny-lottie-page.css: {}
+  js:
+    libraries_assets/js/axios.min.js: {}
+    js/funny-lottie-page.js: {}
 front_articles:
   css:
     base:

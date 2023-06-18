@@ -1,0 +1,27 @@
+uuid: f256bca3-deb5-4184-aeb4-6708a7ba7787
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lottie_json
+    - node.type.funny_lottie
+  module:
+    - file
+id: node.funny_lottie.field_lottie_json
+field_name: field_lottie_json
+entity_type: node
+bundle: funny_lottie
+label: 'Lottie json'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: json
+  max_filesize: '4 MB'
+  description_field: false
+field_type: file

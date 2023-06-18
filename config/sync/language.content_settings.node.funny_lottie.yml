@@ -1,0 +1,11 @@
+uuid: f9c82324-4063-4124-9841-4897fde9b3ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.funny_lottie
+id: node.funny_lottie
+target_entity_type_id: node
+target_bundle: funny_lottie
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: afc46655-2903-4a4c-b53b-0e11e6fa467a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_lottie_json
+field_name: field_lottie_json
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
