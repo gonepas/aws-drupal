@@ -17,6 +17,7 @@
 .layout-container #funnyPage-wrapper #next-btn {
   max-width: 100px;
   position: absolute;
+  cursor: pointer;
   right: 10px;
   bottom: 0;
 }
